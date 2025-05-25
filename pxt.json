@@ -1,0 +1,34 @@
+{
+    "name": "monitor-services",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "devices": "*",
+        "bluetooth": "*",
+        "microphone": "*",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3",
+        "servo": "*",
+        "MakerBit-LCD1602": "github:1010technologies/pxt-makerbit-lcd1602#v1.8.11",
+        "pxt-mfrc522": "github:joy-it/pxt-rfid-mfrc522#1.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.1.78",
+        "tag": "v1.1.78",
+        "commits": "https://github.com/Microsoft/pxt-microbit/commits/21e94c550395199a2900af1b8dc75baed5ca7105",
+        "target": "7.0.61",
+        "pxt": "4.1.41",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
